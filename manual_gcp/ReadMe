@@ -1,0 +1,12 @@
+Src co-ordinates are the co-ordinates of the rectified image
+Dst co-ordinates are the co-ordinates of the raw image
+
+Intial 4 values are entered in the coords.txt file
+src_x, src_y; dst_x, dst_y
+
+Using which we form the homography.
+
+Later we enter additional suppoting GCP's. 
+Once finished, the final transformed image is shown along with its co-ordinate system.
+
+For this demo we have taken a dummy example. We have two satellite images, we generate dummy co-ordinates for the rec_img. We apply the above process to generate the co-ordinates for raw_img
